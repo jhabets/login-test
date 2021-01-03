@@ -104,3 +104,28 @@ npx degit sveltejs/template my-svelte-project
 cd my-svelte-project
 npm install
 ```
+
+## Flutter
+
+Flutter is a cross platform development framework that uses the Dart programming language.  In the same way that Svelte is a rival to React, Flutter is a rival to React-Native.    
+
+Create a `/src` folder at the root of your drive and run this from there.  This is like having a Python folder outside of `Program Files`.  On my desktop this is `E:\src\flutter`
+
+```
+git clone https://github.com/flutter/flutter.git -b stable
+```
+
+Next, add `E:\src\flutter\bin` to `PATH` by typing  `env` into the Windows search bar to open the Edit System Environment Variables Control Panel.
+
+Use Flutter Doctor to see if the setup is working.
+```
+flutter doctor
+```
+
+## Android Studio
+
+Install Android Studio from [android studio](https://developer.android.com/studio/)
+Install the Flutter and Dart Plugins
+Configure your Android SDK
+
+`flutter doctor` will whine about not finding the Plugins, this is apparently a known issue and Android Studio will handle everything for you and still build your app.
