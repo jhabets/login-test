@@ -38,6 +38,13 @@ npm install -g aws-cdk
 cdk --version
 ```
 
+Start a project with:
+```
+mkdir cdk
+cd cdk
+cdk init app --language typescript
+```
+
 You might need to change Execution Policies to allow cdk to run.  My first time running I received this warning: 
 > "...\npm\cdk.ps1 cannot be loaded because running scripts is disabled on this system. For more information, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170"
 
