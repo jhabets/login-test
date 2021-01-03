@@ -68,6 +68,21 @@ Configure Amplify to use a new IAM user with AdminAccess
 amplify configure
 ```
 
+Start a new project
+```
+mkdir amplify
+cd amplify
+amplify init
+```
+
+Useful Amplify Commands:
+`amplify status`
+`amplify add`
+`amplify push`
+`amplify console`
+`amplify publish`
+
+
 ## Typescript
 
 I'm slowly migrating from vanilla javascript to Typescript, being pushed along by Deno and AWS CDK and Svelte.
